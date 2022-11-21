@@ -1,0 +1,64 @@
+Arguments: 
+  D:\Program Files\nodejs\node.exe D:\Program Files (x86)\Yarn\bin\yarn.js config set registry https://registry.npm.taobao.org
+
+PATH: 
+  D:\Program Files\Git\mingw64\bin;D:\Program Files\Git\usr\bin;C:\Users\ChenJing\bin;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0;C:\WINDOWS\System32\OpenSSH;D:\Program Files (x86)\Yarn\bin;D:\Program Files\Git\cmd;D:\Program Files;D:\Program Files\TortoiseSVN\bin;D:\Program Files\MySQL\MySQL Server 5.5\bin;D:\Program Files\nodejs;D:\Program Files (x86)\NetSarang\Xshell 7;D:\Program Files (x86)\NetSarang\Xftp 7;D:\Program Files\Java\jdk1.8.0_301\bin;D:\Program Files\apache-maven-3.3.9\bin;C:\Ruby27-x64\bin;C:\Program Files (x86)\Ruby27-x64\bin;C:\Users\ChenJing\AppData\Local\Microsoft\WindowsApps;C:\Users\ChenJing\AppData\Local\Yarn\bin;D:\Program Files\Microsoft VS Code\bin;C:\Users\ChenJing\AppData\Roaming\npm
+
+Yarn version: 
+  1.21.1
+
+Node version: 
+  16.13.1
+
+Platform: 
+  win32 x64
+
+Trace: 
+  SyntaxError: E:\practice\Fengzhuang\demo01\package.json: Unexpected token } in JSON at position 1003
+      at JSON.parse (<anonymous>)
+      at D:\Program Files (x86)\Yarn\lib\cli.js:1625:59
+      at Generator.next (<anonymous>)
+      at step (D:\Program Files (x86)\Yarn\lib\cli.js:310:30)
+      at D:\Program Files (x86)\Yarn\lib\cli.js:321:13
+
+npm manifest: 
+  {
+    "name": "@wenduzz/change-button",
+    "version": "1.0.0",
+    "main": "lib/change-button.js",
+    "license": "MIT",
+    "devDependencies": {
+      "@babel/core": "^7.10.4",
+      "@hot-loader/react-dom": "^16.13.0",
+      "@babel/preset-env": "^7.10.4",
+      "@babel/preset-react": "^7.10.4",
+      "autoprefixer": "^9.8.4",
+      "babel-loader": "^8.1.0",
+      "clean-webpack-plugin": "^3.0.0",
+      "css-loader": "^3.6.0",
+      "html-webpack-plugin": "^4.3.0",
+      "optimize-css-assets-webpack-plugin": "^5.0.3",
+      "postcss-loader": "^3.0.0",
+      "style-loader": "^1.2.1",
+      "terser-webpack-plugin": "^3.0.6",
+      "webpack": "^4.43.0",
+      "webpack-cli": "^3.3.12",
+      "webpack-dev-server": "^3.11.0",
+      "webpack-merge": "^5.0.9",
+      "webpack-node-externals": "^2.5.0"
+    },
+    "dependencies": {
+      "react": "^16.13.1",
+      "react-dom": "^16.13.1"
+    },
+    "scripts": {
+      "build": "webpack --config ./scripts/webpack.prod.config.js",
+      "dev": "webpack-dev-server --config ./scripts/webpack.dev.config.js"
+    },
+  }
+
+yarn manifest: 
+  No manifest
+
+Lockfile: 
+  No lockfile
